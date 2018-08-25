@@ -20,7 +20,7 @@ import static java.lang.annotation.RetentionPolicy.RUNTIME;
 @Retention(RUNTIME)
 public @interface ContainsStrings {
 
-    String message() default "{org.jeremy.ConstainsStrings.message}";
+    String message() default "{org.jeremy.ContainsStrings.message}";
 
     Class<?>[] groups() default {};
 
