@@ -16,7 +16,7 @@ public class ContainsIntValidator implements ConstraintValidator<ContainsInts, C
 
     @Override
     public void initialize(ContainsInts constraintAnnotation) {
-        values =Arrays.stream(constraintAnnotation.values()).boxed().collect(Collectors.toSet());
+        values = Arrays.stream(constraintAnnotation.values()).boxed().collect(Collectors.toSet());
     }
 
     @Override
